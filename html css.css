@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.car {
+
+    background-color: darkcyan;
+    font-size: 45px;
+    width: 220px;
+    height: 100px;
+}
+
+.models .m1 {
+    font-size: 20px;
+
+}
+
+.models .m2 {
+    font-size: 20px;
+}
+
+.models .m3 {
+    font-size: 20px;
+}
