@@ -7,24 +7,25 @@
     background-color: rgba(164, 56, 214, 0.507);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 200px;
-    height: 200px;
-
-
+    height: 230px;
+    justify-content: space-evenly;
 }
 
-.page :nth-of-type(2) {
+.page button:nth-child(3) {
     border: none;
-
-
+    width: 180px;
+    border-radius: 15px;
+    position: relative;
+    align-items: center;
 }
 
-.page :nth-of-type(1) {
+.page button:last-child {
     border: none;
-
-}
-
-.page :nth-child(3) {
-    display: flex;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 180px;
+    outline: 20px;
 }
