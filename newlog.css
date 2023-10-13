@@ -31,49 +31,59 @@
   font-size: 20px;
   justify-content: left;
   margin-top: 10px;
-  position: relative;
+  /* position: relative;
   top: 40px;
-  left: 20px;
+  left: 20px; */
 }
 .main .content .sign .content.em h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  right: 108px;
-  bottom: 30px;
+  /* position: relative; */
+  /* right: 108px;
+  bottom: 30px; */
 }
 .main .content .sign .content.em .ema {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  /* position: relative;
   right: 4px;
-  bottom: 30px;
+  bottom: 28px;
   width: 250px;
-  height: 30px;
+  height: 30px; */
   /* border: none; */
 }
 .main .content .sign .content.em h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  right: 108px;
-  bottom: 30px;
-  font-size: medium;
+  /* position: relative;
+  right: 100px;
+  bottom: 8px; */
+  font-size: 15px;
+}
+.main .content .sign .content.em .pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative;
+  right: 4px;
+  bottom: 0px;
+  width: 250px;
+  height: 30px; */
 }
 .main .content .sign .content.em button {
   background-color: rgb(226, 97, 97);
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  height: 20px;
+  /* position: relative; */
+  height: 40px;
   width: 250px;
   border-radius: 5px;
   border: none;
-  top: 48px;
+  /* top: 30px; */
   cursor: pointer;
 }
 
