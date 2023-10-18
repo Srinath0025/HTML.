@@ -1,0 +1,23 @@
+@keyframes jet {
+  0% {
+    background-color: chocolate;
+    left: 0%;
+    top: 0%;
+    border: 0px;
+  }
+  33% {
+    background-color: darkred;
+    left: 100% - 20%;
+    top: 0%;
+  }
+  66% {
+    background-color: aqua;
+    left: 0%;
+    top: 100% - 20%;
+  }
+  100% {
+    background-color: deepskyblue;
+    left: 100% - 20%;
+    top: 100% - 20%;
+  }
+}

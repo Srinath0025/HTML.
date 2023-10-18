@@ -1,0 +1,21 @@
+@import "./animation";
+* {
+  margin: 0px;
+}
+.main-box {
+  height: 500px;
+  width: 500px;
+  background-color: gray;
+  position: relative;
+  .box {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: black;
+    animation: jet 5s infinite alternate;
+    transition: 1s;
+    // &:hover {
+    //   background-color: yellowgreen;
+    // }
+  }
+}

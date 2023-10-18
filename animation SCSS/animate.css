@@ -1,0 +1,41 @@
+@keyframes jet {
+  0% {
+    background-color: chocolate;
+    left: 0%;
+    top: 0%;
+    border: 0px;
+  }
+  33% {
+    background-color: darkred;
+    left: 80%;
+    top: 0%;
+  }
+  66% {
+    background-color: aqua;
+    left: 0%;
+    top: 80%;
+  }
+  100% {
+    background-color: deepskyblue;
+    left: 80%;
+    top: 80%;
+  }
+}
+* {
+  margin: 0px;
+}
+
+.main-box {
+  height: 500px;
+  width: 500px;
+  background-color: gray;
+  position: relative;
+}
+.main-box .box {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  background-color: black;
+  animation: jet 5s infinite alternate;
+  transition: 1s;
+}/*# sourceMappingURL=animate.css.map */
