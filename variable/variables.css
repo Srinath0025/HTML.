@@ -1,0 +1,15 @@
+.main-box {
+  border: green;
+  padding: 10px;
+  border-radius: 5px;
+}
+.main-box .box {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(231, 136, 136, 0.795);
+}
+.main-box p {
+  color: green;
+}/*# sourceMappingURL=variables.css.map */

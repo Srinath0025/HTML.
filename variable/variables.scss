@@ -1,0 +1,17 @@
+@import "./myvariable";
+
+.main-box {
+  border: $maincolour;
+  padding: $mycontentpadding;
+  border-radius: $myradius;
+  .box {
+    height: 100px;
+    width: 100px;
+    background-color: $maincolour;
+    border-radius: $myradius;
+    box-shadow: $myshadow;
+  }
+  p {
+    color: $maincolour;
+  }
+}
